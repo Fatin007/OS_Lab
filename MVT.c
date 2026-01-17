@@ -1,14 +1,5 @@
 #include<stdio.h>
-// Lab Report on Operating System Lab
-// Course Code: Course Title
-// Submitted by:        /
 
-// Submitted to: 
-
-// Labtest - 2 points 4 
-// report - 1 + 1 4 
-// CA - 1 2 
-// Attendance = 5 
 #define MAX 100
 int main() {
     int availableMemory;
@@ -45,6 +36,4 @@ int main() {
     }
     printf("Total Memory Allocated: %d\n", totalMem - availableMemory);
     printf("Total External Fragmentation: %d\n", availableMemory);
-    
-
 }
