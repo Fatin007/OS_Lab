@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Number of process:"
+read n_process
+echo "print $n_process times"
+read -a queue
